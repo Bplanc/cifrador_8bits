@@ -1,5 +1,5 @@
 module Cifrador_8bits_TB;	   
-	 
+//Para simular el circuito, puedes usar el siguiente testbench en verilog	 
     // Entradas
     reg A7, A6, A5, A4, A3, A2, A1, A0;
 	
@@ -14,7 +14,7 @@ module Cifrador_8bits_TB;
     .Y3(Y3), .Y2(Y2), .Y1(Y1), .Y0(Y0)
  );					  
  
- // Proceso de estimulación
+ // Proceso de estimulaciÃ³n
  initial begin 
 	 
     // Prueba 1: Entrada 00000000
@@ -37,7 +37,7 @@ module Cifrador_8bits_TB;
     A3 = 0; A2 = 1; A1 = 0; A0 = 1;
     #10; 
 	
-    // Finalizar simulación
+    // Finalizar simulaciÃ³n
     $stop;
   end	 
  

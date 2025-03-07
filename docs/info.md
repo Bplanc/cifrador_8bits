@@ -20,11 +20,14 @@ IMAGEN
 El circuito tomará una entrada de 8 bits (A_7 A_6 A_5 A_4 A_3 A_2 A_1 A_0) y producirá una salida de 8 bits (Y_7 Y_6 Y_5 Y_4 Y_3 Y_2 Y_1 Y_0)) cifrada. Habrá dos mallas y cada malla tiene 4 compuertas AND, pero las salidas se combinan para generar solo 3 salidas por medio de compuertas OR cada malla tendrá como resultado un valor de 3 bits que se unirán sin sumarse para formar un valor de 8 bits que se mandara al sumador de 8 bits (2 sumadores de 4 bits escalonados) y la salida será de 8 bits ya cifrado.
 
 COMPUERTAS LOGICAS IMAGEN
+![Captura de pantalla 2025-03-06 234233](https://github.com/user-attachments/assets/a4a64073-79b5-496e-b9d2-506c6068509a)
 
-![Captura de pantalla 2025-03-06 233814](https://github.com/user-attachments/assets/7e6507e5-0884-490f-b554-20514598dc10)
+## How to test
+
 
 El circuito no cuenta con una clave de cifrado las 8 entradas pasan por las compuertas AND Y OR para ser cifradas, por simplicidad el proceso de cifrado se basa únicamente en la lógica combinacional de las compuertas y por lo tanto el cifrado es una transformacion fija de las entradas y salidas sin depender de una clave externa.
  
+
 
 
 ## How to test

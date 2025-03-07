@@ -2,7 +2,7 @@
  * Copyright (c) 2024 Your Name
  * SPDX-License-Identifier: Apache-2.0
  */
-
+//no supimos como implementar nuestro circuito en este archivo, asi que implementamos un archivo para la simulacion propia.
 `default_nettype none
 
 module tt_um_Cifrador_8bits(
